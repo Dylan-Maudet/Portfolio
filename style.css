@@ -7,7 +7,7 @@ html, body {
   flex-direction: column;
   scroll-behavior: smooth;
   overflow: auto;
-  background-image: url("/img/bg-img.jpg");
+  background-image: url("img/bg-img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
