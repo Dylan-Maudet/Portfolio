@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dylan Maudet Portfolio - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body class="page-enter">
+
+  <div class="wrapper">
+   <header>
+    <div class="container">
+      <h1 class="logo">Dylan Maudet</h1>
+      <button class="mobile-menu-btn" aria-label="Menu">&#9776;</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li class="dropdown">
+            <a href="#" class="has-submenu">Réalisations ▼</a>
+              <ul class="dropdown-content">
+            <!-- Sous-menu Projets BTS -->
+              <li class="dropdown-sub">
+              <a href="projets.html">Projets BTS ▶</a>
+                <ul class="dropdown-sub-content">
+                  <li><a href="projets.html#projet1">Kotlin Aventure</a></li>
+                  <li><a href="projets.html#projet2">Geoworld</a></li>
+                  <li><a href="projets.html#projet3">Sushi-app</a></li>
+                </ul>
+              </li>
+            <!-- Sous-menu Stages -->
+                <li class="dropdown-sub">
+                <a href="stages.html">Stages ▶</a>
+                  <ul class="dropdown-sub-content">
+                    <li><a href="stages.html#stage1">OMAC</a></li>
+                    <li><a href="stages.html#stage2">CIPS</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="blurred-background"></div>
+    <div class="home-content">
+    <h1>Bienvenue sur mon portfolio professionnel 💻</h1>
+    <p>Je suis Dylan Maudet, diplômé d'un BTS Services Informatiques aux Organisations (SIO), option SLAM (Solutions Logicielles et Applications Métiers).</p>
+    <p>Ce portfolio a pour objectif de présenter mon parcours, mes projets réalisés en formation et en autonomie, ainsi que mes premières expériences professionnelles dans le domaine du développement.</p>
+    <p>Vous y trouverez une présentation de mes compétences, de mes réalisations, ainsi que des outils et technologies que j’ai appris à maîtriser au cours de ma formation.</p>
+    <p>🎓 Prochaine étape :</p>
+    <p>À la rentrée, j’intègrerai le BUT Métiers du Multimédia et de l’Internet (MMI) pour approfondir mes connaissances et compétences dans le numérique.</p>
+
+    <div style="margin: 100px 0; text-align: center;">
+    <p>Envie d’en savoir plus sur mon cheminement ?</p>
+    <a href="#parcours" style="padding:12px 25px; background-color:#00bcd4; color:#fff; border-radius:8px; text-decoration:none; font-size:16px; font-weight:600;">
+    ▼ Mon parcours ▼
+    </a>
+    </div>
+
+    <h1 id="parcours">Mon Parcours</h1>
+    <p>Après avoir obtenu mon BTS Services Informatiques aux Organisations, option SLAM, j’ai pu acquérir une base de compétences en développement web, applications et en gestion de bases de données grâce à des projets concrets et des expériences en entreprise.</p>
+    <p>Durant ma formation, j’ai travaillé sur plusieurs projets significatifs, comme "Kotlin Aventure", "Geoworld" et "Sushi-app", qui m’ont permis de mettre en pratique des langages tels que HTML/CSS, PHP, JavaScript et TypeScript mais aussi des technologies comme Angular et Springboot.</p>
+    <p>J’ai également effectué deux stages, le premier uprès d'un centre d'initiation à la pratique sportive et le deuxième chez l'OMAC (office municipal d'animation de la cité), où j’ai pu approfondir mes connaissances du travail en équipe, de la gestion de versions, et des méthodologies de développement.</p>
+    <p>Pour poursuivre ma montée en compétences et élargir mes savoir-faire, j’intègrerai à la rentrée le BUT Métiers du Multimédia et de l’Internet (MMI), une formation pluridisciplinaire qui complétera parfaitement mon profil.</p>
+
+    <p>N’hésitez pas à parcourir les différentes pages pour découvrir en détail mes projets, mes expériences de stage, ainsi que mes compétences techniques.</p>
+    <p>Merci pour votre visite et bonne navigation !</p>
+    </div>
+  </main>
+</div>
+
+<hr class="section-divider">
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Dylan Maudet. Tous droits réservés.</p>
+      <div class="footer-nav">
+        <a href="mentions-legales.html">Mentions légales</a> |
+        <a href="cgu.html">CGU</a> |
+        <a href="confidentialite.html">Confidentialité</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/Dylan-Maudet" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+        <a href="https://www.linkedin.com/in/dylan-maudet/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+      </div>
+        <button id="backToTop" title="Retour en haut">▲ Revenir en haut</button>
+    </div>
+  </footer>
+
+</body>
+</html>

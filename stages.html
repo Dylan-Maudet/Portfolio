@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dylan Maudet Portfolio - Stages</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body class="page-enter">
+  
+  <div class="wrapper">
+   <header>
+    <div class="container">
+      <h1 class="logo">Dylan Maudet</h1>
+      <button class="mobile-menu-btn" aria-label="Menu">&#9776;</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+            <li class="dropdown">
+            <a href="#" class="has-submenu">Réalisations ▼</a>
+              <ul class="dropdown-content">
+            <!-- Sous-menu Projets BTS -->
+              <li class="dropdown-sub">
+              <a href="projets.html">Projets BTS ▶</a>
+                <ul class="dropdown-sub-content">
+                  <li><a href="projets.html#projet1">Kotlin Aventure</a></li>
+                  <li><a href="projets.html#projet2">Geoworld</a></li>
+                  <li><a href="projets.html#projet3">Sushi-app</a></li>
+                </ul>
+              </li>
+            <!-- Sous-menu Stages -->
+                <li class="dropdown-sub">
+                <a href="stages.html">Stages ▶</a>
+                  <ul class="dropdown-sub-content">
+                    <li><a href="#stage1">OMAC</a></li>
+                    <li><a href="#stage2">CIPS</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- Section Projets -->
+  <main class="container">
+    <section id="stages" class="projets-stages">
+      
+      <div class="intro-projets-stages"><h3>À propos des stages</h3>
+      <p>Dans le cadre de mon BTS Services Informatiques aux Organisations, spécialité Solutions Logicielles et Applications Métiers (SLAM),
+      j’ai effectué deux stages en entreprise. Ces périodes d’immersion professionnelle m’ont permis de mettre en pratique mes compétences en développement,
+      d’intégrer une équipe projet, et de répondre à des besoins concrets d’organisations réelles. J’ai participé à l’analyse, au développement,
+      et à la maintenance d’applications, tout en découvrant le fonctionnement d’un environnement professionnel.
+      Vous trouverez ci-dessous le détail des missions réalisées, les technologies utilisées, ainsi que les compétences mobilisées lors de ces expériences.</p>
+      </div>
+
+      <div class="box-sommaire">
+        <h4>Sommaire des stages</h4>
+          <ul>
+            <li><a href="#stage1">OMAC</a></li>
+            <li><a href="#stage2">CIPS</a></li>
+          </ul>
+      </div>
+
+      <!-- Projet 1 -->
+      <article id="stage1">
+        <div class="project-banner">
+          <div class="project-content">
+            <div class="project-description">
+              <h2>OMAC</h2>
+              <p><strong>OMAC</strong> est l’Office Municipal d’Animation de la Cité. Mon stage a porté sur deux volets : 
+              la création d’un site web avec WordPress et la maintenance du parc informatique.
+              J’ai travaillé à la fois sur la partie design (UX/UI) et sur les aspects techniques de l’environnement de travail.</p>
+            </div>
+
+        <ul class="project-info">
+          <li><strong>Mission 1 – Site WordPress :</strong> Design UX/UI, intégration de contenu, SEO, sécurité et performance</li>
+          <li><strong>Mission 2 – Maintenance PC :</strong> Dépannage, mises à jour, gestion des pilotes, sauvegardes, déploiement d'une app de gestion des appels</li>
+          <li><strong>Technologies :</strong> WordPress, HTML/CSS, outils SEO, outils de maintenance système</li>
+          <li><strong>Compétences développées :</strong> CMS, optimisation web, ergonomie, support technique, déploiement logiciel</li>
+        </ul>
+
+          <a href="https://omactorcy.fr" target="_blank" class="omac-btn">
+            <i class="fas fa-globe"></i> - Voir le site OMAC
+          </a>
+          </div>
+          <div class="project-image">
+            <img src="/img/logo-omac.jpeg" alt="Logo site Omac">
+          </div>
+        </div>
+      </article>
+
+      <!-- Projet 2 -->
+      <article id="stage2">
+        <div class="project-banner">
+          <div class="project-content">
+            <div class="project-description">
+              <h2 id="titre-stage2">CIPS</h2>
+              <p><strong>CIPS</strong> est le Centre d’Initiation à la Pratique Sportive. Durant ce stage, j’ai contribué à 
+              l’automatisation de tâches sous Excel via VBA, ainsi qu’à la mise en forme du site existant en CSS. Ces missions m'ont permis
+              d'améliorer la productivité interne tout en renforçant la qualité visuelle du site.</p>
+            </div>
+
+          <ul class="project-info">
+            <li><strong>Mission 1 – Automatisation Excel :</strong> Enregistrement de macros, scripts personnalisés en VBA</li>
+            <li><strong>Mission 2 – Modifications CSS du site :</strong> Responsive design, stylisation des éléments, gestion des couleurs et typographies</li>
+            <li><strong>Technologies :</strong> Excel, VBA, CSS</li>
+            <li><strong>Compétences développées :</strong> Automatisation, scripting, responsive design, retouche graphique</li>
+          </ul>
+
+          <a href="/fichiers/ListeEnfants-CIPS.xlsm" class="cips-btn" download>
+            <i class="fas fa-file-excel"></i> - Télécharger le fichier Excel VBA
+          </a>
+        </div>
+
+        <div class="project-image">
+          <img src="/img/logo-cips.png" alt="Logo CIPS">
+        </div>
+      </div>
+    </article>
+    </section>
+  </main>
+</div>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Dylan Maudet. Tous droits réservés.</p>
+      <div class="footer-nav">
+        <a href="mentions-legales.html">Mentions légales</a> |
+        <a href="cgu.html">CGU</a> |
+        <a href="confidentialite.html">Confidentialité</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/Dylan-Maudet" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+        <a href="https://www.linkedin.com/in/dylan-maudet/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+      </div>
+        <button id="backToTop" title="Retour en haut">▲ Revenir en haut</button>
+    </div>
+  </footer>
+
+</body>
+</html>

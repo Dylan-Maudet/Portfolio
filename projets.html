@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dylan Maudet Portfolio - Projets</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body class="page-enter">
+  
+  <div class="wrapper">
+   <header>
+    <div class="container">
+      <h1 class="logo">Dylan Maudet</h1>
+      <button class="mobile-menu-btn" aria-label="Menu">&#9776;</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+            <li class="dropdown">
+            <a href="#" class="has-submenu">Réalisations ▼</a> 
+              <ul class="dropdown-content">
+            <!-- Sous-menu Projets BTS -->
+              <li class="dropdown-sub">
+              <a href="projets.html">Projets BTS ▶</a>
+                <ul class="dropdown-sub-content">
+                  <li><a href="#projet1">Kotlin Aventure</a></li>
+                  <li><a href="#projet2">Geoworld</a></li>
+                  <li><a href="#projet3">Sushi-app</a></li>
+                </ul>
+              </li>
+            <!-- Sous-menu Stages -->
+                <li class="dropdown-sub">
+                <a href="stages.html">Stages ▶</a>
+                  <ul class="dropdown-sub-content">
+                    <li><a href="stages.html#stage1">OMAC</a></li>
+                    <li><a href="stages.html#stage2">CIPS</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- Section Projets -->
+  <main class="container">
+    <section id="projets" class="projets-stages">
+      <div class="intro-projets-stages"><h3>À propos de mes projets</h3>
+      <p>Durant ma formation en BTS Services Informatiques aux Organisations, spécialité Solutions Logicielles et Applications Métiers (SLAM),
+        j’ai eu l’opportunité de réaliser plusieurs projets concrets, à la fois en autonomie et en collaboration.
+        Ces projets avaient pour but de mettre en application les compétences acquises en développement web, en programmation orientée objet,
+        en conception de bases de données et en gestion de projet. Qu’ils soient réalisés dans le cadre de travaux pratiques encadrés ou de projets plus libres, 
+        chacun m’a permis de développer des solutions répondant à des besoins réels, tout en respectant les contraintes techniques, fonctionnelles et de sécurité.
+        Vous trouverez ci-dessous une sélection de ces projets, présentés avec leur contexte, les technologies utilisées et les compétences mobilisées.</p>
+      </div>
+      
+      <div class="box-sommaire">
+        <h4>Sommaire des projets</h4>
+          <ul>
+            <li><a href="#projet1">Kotlin Aventure</a></li>
+            <li><a href="#projet2">Geoworld</a></li>
+            <li><a href="#projet3">Sushi-app</a></li>
+          </ul>
+      </div>
+
+      <!-- Projet 1 -->
+      <article id="projet1">
+        <div class="project-banner">
+          <div class="project-content">
+            <div class="project-description">
+            <h2>Kotlin Aventure</h2>
+            <p><strong>Kotlin Aventure</strong> est un jeu de rôle développé en Kotlin sous forme d'application console. Il met en œuvre les
+            principes de la programmation orientée objet. Le joueur explore un univers composé de plusieurs pièces connectées, peut interagir avec
+            des objets et progresser à travers des événements conditionnels. Ce projet a été réalisé en groupe dans le cadre de l’apprentissage de
+            Kotlin et de la structuration orientée objet.
+            </p>
+            </div>
+              <ul class="project-info">
+                <li><strong>Fonctionnalités clés :</strong> Navigation entre pièces, inventaire, lecture de commandes en ligne de commande</li>
+                <li><strong>Technologies utilisées :</strong> Kotlin, IntelliJ, paradigme objet</li>
+                <li><strong>Compétences développées :</strong> POO, logique de jeu, structuration de classes, modélisation UML, interface en ligne de commande</li>
+              </ul>
+
+            <a href="https://github.com/Nicolas-Tran-SIO/KotlinAventure-project" target="_blank" class="github-btn"><i class="fab fa-github"></i> - Kotlin Aventure</a>
+          </div>
+            <div class="project-image">
+              <img src="/img/kotlin-aventure.jpg" alt="Projet Kotlin Aventure">
+            </div>
+        </div>
+      </article>
+
+      <!-- Projet 2 -->
+      <article id="projet2">
+        <div class="project-banner">
+          <div class="project-content">
+            <div class="project-description">
+            <h2>Geoworld</h2>
+            <p><strong>Geoworld</strong> est une application web interactive destinée à sensibiliser les utilisateurs aux données géographiques
+            mondiales. Elle permet de rechercher un pays et d’afficher dynamiquement des informations telles que la capitale, la population,
+            la langue ou encore le drapeau. Ce projet avait pour objectif l’apprentissage de la manipulation d’API REST, du DOM en JavaScript,
+            ainsi que du responsive design.
+            </p>
+            </div>
+            <ul class="project-info">
+              <li><strong>Fonctionnalités clés :</strong> Recherche de pays, affichage dynamique des informations, intégration d’API externe</li>
+              <li><strong>Technologies utilisées :</strong> HTML, CSS, JavaScript, Fetch API, REST</li>
+              <li><strong>Compétences développées :</strong> Consommation d’API, manipulation du DOM, design responsive, UX</li>
+            </ul>
+
+            <a href="https://github.com/Dylan-Maudet/Geoworld/tree/main" target="_blank" class="github-btn"><i class="fab fa-github"></i> - Geoworld</a>
+          </div>  
+            <div class="project-image">
+              <img src="/img/geoworld.png" alt="Projet Geoworld">
+            </div>
+          </div>
+        </article>
+
+      <!-- Projet 3 -->
+      <article id="projet3">
+        <div class="project-banner">
+          <div class="project-content">
+          <div class="project-description">
+            <h2>Sushi-app</h2>
+            <p><strong>Sushi-app</strong> est une application web simulant un système de commande en ligne pour un restaurant fictif de sushis. 
+            Les utilisateurs peuvent consulter le menu, ajouter des articles à leur panier, passer commande et voir un récapitulatif. 
+            Un espace administrateur permet aussi de gérer les produits. Le projet a été conçu pour appliquer les notions de PHP, SQL et logique serveur.
+          </p>
+          </div>
+          <ul class="project-info">
+            <li><strong>Fonctionnalités clés :</strong> Interface client avec panier, gestion des commandes, back-office administrateur</li>
+            <li><strong>Technologies utilisées :</strong> HTML, CSS, PHP, MySQL, Bootstrap</li>
+            <li><strong>Compétences développées :</strong> Architecture MVC simplifiée, base de données, sessions PHP, sécurisation de formulaires</li>
+          </ul>
+
+          <a href="https://github.com/Dylan-Maudet/sushi-app" target="_blank" class="github-btn"><i class="fab fa-github"></i> - Sushi-app</a>
+        </div>
+          <div class="project-image">
+            <img src="/img/sushi-app.png" alt="Projet Sushi-app">
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+</div>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Dylan Maudet. Tous droits réservés.</p>
+      <div class="footer-nav">
+        <a href="mentions-legales.html">Mentions légales</a> |
+        <a href="cgu.html">CGU</a> |
+        <a href="confidentialite.html">Confidentialité</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/Dylan-Maudet" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+        <a href="https://www.linkedin.com/in/dylan-maudet/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+      </div>
+        <button id="backToTop" title="Retour en haut">▲ Revenir en haut</button>
+    </div>
+  </footer>
+
+</body>
+</html>
