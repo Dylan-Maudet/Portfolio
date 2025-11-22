@@ -1,0 +1,29 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dossier perso ou temporaire
+/temp/
+*.tmp
+
+# Sauvegardes d’éditeurs
+*.bak
+*.swp
+*.swo
+*~
+
+# Fichiers générés par VS Code
+.vscode/
+
+# Fichiers liés à l’environnement
+.env
+
+# Dossier de déploiement si tu buildes (pas le cas ici a priori)
+dist/
+build/
+
+# Node.js (si jamais tu ajoutes des outils comme npm ou vite)
+node_modules/
